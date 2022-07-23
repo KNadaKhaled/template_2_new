@@ -1,0 +1,80 @@
+.gallarys-items{
+    display: flex;
+ justify-content: space-around;
+ margin: 80px 0;
+}
+.g-item-1 img{
+    width: 100%;
+    height: 300px;
+    border-radius:20px ;
+    position: relative;
+}
+.g-item-1 .icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  color: var(--maincolor);
+  display: block;
+ border: 5px solid var(--color3);
+ border-radius: 30%;
+ height: 5px;
+padding :20px;
+transition: background 0.5s;
+}
+.g-item-1 i{
+    line-height: 3px;
+  text-align: center;
+}
+.g-item-1:hover .icon{
+ background-color: var(--color);
+ border: none;
+ color: #fff;
+}
+
+.gallary-item{
+    margin-right: 20px;
+    position: relative;
+}
+.g-item-2{
+    background-color: var(--color3);
+    height: 300px;
+    padding: 20px;
+}
+.g-item-2 .top .gallary-title{
+    color:var(--maincolor);
+    text-align: center;
+}
+.g-item-2 .top .gallary-title ,
+.g-item-2 .top h3,
+.g-item-2 .top .gallary-subtitle{
+    margin-bottom: 5px;
+}
+.g-item-2 .top h3{
+    font-size: 30px;
+    color: var(--supcolor);
+}
+.g-item-2 .top .gallary-subtitle{
+   font-size: 20px;
+   font-weight: 600;
+   display: block;
+   color: var(--maincolor);
+}
+.gallary-item p{
+    text-align: justify;
+    font-size: larger;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    word-spacing: -5px;
+}
+.gallary-item .bollets{
+    position: absolute;
+    bottom: 30px;
+    right: 180px;
+}
+.gallary-item .bollets span{
+    width: 50px;
+    height: 2px;
+    display: inline-block;
+    background-color: var(--maincolor);
+}
